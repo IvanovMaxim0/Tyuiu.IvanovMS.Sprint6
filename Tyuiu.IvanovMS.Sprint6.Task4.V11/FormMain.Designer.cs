@@ -59,7 +59,7 @@
             this.Controls.Add(this.textBoxResult);
             this.Controls.Add(this.labelTitle);
             this.Name = "FormMain";
-            this.Text = "Спринт 6 | Task4 | V11";
+            this.Text = "Спринт 6 | Таск 4 | Вариант 11";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

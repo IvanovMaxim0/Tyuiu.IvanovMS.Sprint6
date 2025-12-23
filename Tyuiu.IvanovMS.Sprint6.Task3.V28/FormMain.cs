@@ -15,36 +15,36 @@ namespace Tyuiu.IvanovMS.Sprint6.Task3.V28
         { 
             InitializeComponent();
         }
-        private void buttonDone_VAA_Click(object sender, EventArgs e)
+        private void buttonDone_IMS_Click(object sender, EventArgs e)
         {
             int[,] res = ds.Calculate(mtrx);
 
             int rows = res.GetUpperBound(0) + 1;
             int columns = res.Length / rows;
 
-            dataGridViewRes_VAA.ColumnCount = columns;
-            dataGridViewRes_VAA.RowCount = rows;
+            dataGridViewRes_IMS.ColumnCount = columns;
+            dataGridViewRes_IMS.RowCount = rows;
 
             for (int i = 0; i < columns; i++)
             {
-                dataGridViewRes_VAA.Columns[i].Width = 25;
+                dataGridViewRes_IMS.Columns[i].Width = 25;
             }
 
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    dataGridViewRes_VAA.Rows[i].Cells[j].Value = Convert.ToString(res[i, j]);
+                    dataGridViewRes_IMS.Rows[i].Cells[j].Value = Convert.ToString(res[i, j]);
                 }
             }
         }
 
-        private void buttonHelp_VAA_Click(object sender, EventArgs e)
+        private void buttonHelp_IMS_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 3 выполнил студент группы ПКТБ-25-1 Иванов Максим Сергеевич", "Сообщение", MessageBoxButtons.OK);
         }
 
-        private void groupBoxTask_VAA_Enter(object sender, EventArgs e)
+        private void groupBoxTask_IMS_Enter(object sender, EventArgs e)
         {
             //
         }
@@ -54,24 +54,24 @@ namespace Tyuiu.IvanovMS.Sprint6.Task3.V28
             int rows = mtrx.GetUpperBound(0) + 1;
             int columns = mtrx.Length / rows;
 
-            dataGridViewMatrix_VAA.ColumnCount = columns;
-            dataGridViewMatrix_VAA.RowCount = rows;
+            dataGridViewMatrix_IMS.ColumnCount = columns;
+            dataGridViewMatrix_IMS.RowCount = rows;
 
             for (int i = 0; i < columns; i++)
             {
-                dataGridViewMatrix_VAA.Columns[i].Width = 25;
+                dataGridViewMatrix_IMS.Columns[i].Width = 25;
             }
 
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    dataGridViewMatrix_VAA.Rows[i].Cells[j].Value = Convert.ToString(mtrx[i, j]);
+                    dataGridViewMatrix_IMS.Rows[i].Cells[j].Value = Convert.ToString(mtrx[i, j]);
                 }
             }
         }
 
-        private void dataGridViewRes_VAA_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridViewRes_IMS_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             //
         }

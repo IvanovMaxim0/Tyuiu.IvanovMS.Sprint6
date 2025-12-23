@@ -30,31 +30,31 @@ namespace Tyuiu.IvanovMS.Sprint6.Task3.V28
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            this.groupBoxTask_VAA = new System.Windows.Forms.GroupBox();
+            this.groupBoxTask_IMS = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBoxRes_VAA = new System.Windows.Forms.GroupBox();
-            this.labelRes_VAA = new System.Windows.Forms.Label();
-            this.buttonHelp_VAA = new System.Windows.Forms.Button();
-            this.buttonDone_VAA = new System.Windows.Forms.Button();
-            this.dataGridViewMatrix_VAA = new System.Windows.Forms.DataGridView();
-            this.dataGridViewRes_VAA = new System.Windows.Forms.DataGridView();
-            this.groupBoxTask_VAA.SuspendLayout();
-            this.groupBoxRes_VAA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMatrix_VAA)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRes_VAA)).BeginInit();
+            this.groupBoxRes_IMS = new System.Windows.Forms.GroupBox();
+            this.labelRes_IMS = new System.Windows.Forms.Label();
+            this.buttonHelp_IMS = new System.Windows.Forms.Button();
+            this.buttonDone_IMS = new System.Windows.Forms.Button();
+            this.dataGridViewMatrix_IMS = new System.Windows.Forms.DataGridView();
+            this.dataGridViewRes_IMS = new System.Windows.Forms.DataGridView();
+            this.groupBoxTask_IMS.SuspendLayout();
+            this.groupBoxRes_IMS.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMatrix_IMS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRes_IMS)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupBoxTask_VAA
+            // groupBoxTask_IMS
             // 
-            this.groupBoxTask_VAA.Controls.Add(this.dataGridViewMatrix_VAA);
-            this.groupBoxTask_VAA.Controls.Add(this.label1);
-            this.groupBoxTask_VAA.Location = new System.Drawing.Point(13, 13);
-            this.groupBoxTask_VAA.Name = "groupBoxTask_VAA";
-            this.groupBoxTask_VAA.Size = new System.Drawing.Size(650, 349);
-            this.groupBoxTask_VAA.TabIndex = 0;
-            this.groupBoxTask_VAA.TabStop = false;
-            this.groupBoxTask_VAA.Text = "Условие";
-            this.groupBoxTask_VAA.Enter += new System.EventHandler(this.groupBoxTask_VAA_Enter);
+            this.groupBoxTask_IMS.Controls.Add(this.dataGridViewMatrix_IMS);
+            this.groupBoxTask_IMS.Controls.Add(this.label1);
+            this.groupBoxTask_IMS.Location = new System.Drawing.Point(13, 13);
+            this.groupBoxTask_IMS.Name = "groupBoxTask_IMS";
+            this.groupBoxTask_IMS.Size = new System.Drawing.Size(650, 349);
+            this.groupBoxTask_IMS.TabIndex = 0;
+            this.groupBoxTask_IMS.TabStop = false;
+            this.groupBoxTask_IMS.Text = "Условие";
+            this.groupBoxTask_IMS.Enter += new System.EventHandler(this.groupBoxTask_IMS_Enter);
             // 
             // label1
             // 
@@ -65,105 +65,105 @@ namespace Tyuiu.IvanovMS.Sprint6.Task3.V28
             this.label1.TabIndex = 0;
             this.label1.Text = resources.GetString("label1.Text");
             // 
-            // groupBoxRes_VAA
+            // groupBoxRes_IMS
             // 
-            this.groupBoxRes_VAA.Controls.Add(this.dataGridViewRes_VAA);
-            this.groupBoxRes_VAA.Controls.Add(this.labelRes_VAA);
-            this.groupBoxRes_VAA.Location = new System.Drawing.Point(669, 13);
-            this.groupBoxRes_VAA.Name = "groupBoxRes_VAA";
-            this.groupBoxRes_VAA.Size = new System.Drawing.Size(258, 310);
-            this.groupBoxRes_VAA.TabIndex = 1;
-            this.groupBoxRes_VAA.TabStop = false;
-            this.groupBoxRes_VAA.Text = "Вывод данных";
+            this.groupBoxRes_IMS.Controls.Add(this.dataGridViewRes_IMS);
+            this.groupBoxRes_IMS.Controls.Add(this.labelRes_IMS);
+            this.groupBoxRes_IMS.Location = new System.Drawing.Point(669, 13);
+            this.groupBoxRes_IMS.Name = "groupBoxRes_IMS";
+            this.groupBoxRes_IMS.Size = new System.Drawing.Size(258, 310);
+            this.groupBoxRes_IMS.TabIndex = 1;
+            this.groupBoxRes_IMS.TabStop = false;
+            this.groupBoxRes_IMS.Text = "Вывод данных";
             // 
-            // labelRes_VAA
+            // labelRes_IMS
             // 
-            this.labelRes_VAA.AutoSize = true;
-            this.labelRes_VAA.Location = new System.Drawing.Point(6, 23);
-            this.labelRes_VAA.Name = "labelRes_VAA";
-            this.labelRes_VAA.Size = new System.Drawing.Size(80, 17);
-            this.labelRes_VAA.TabIndex = 1;
-            this.labelRes_VAA.Text = "Результат:";
+            this.labelRes_IMS.AutoSize = true;
+            this.labelRes_IMS.Location = new System.Drawing.Point(6, 23);
+            this.labelRes_IMS.Name = "labelRes_IMS";
+            this.labelRes_IMS.Size = new System.Drawing.Size(80, 17);
+            this.labelRes_IMS.TabIndex = 1;
+            this.labelRes_IMS.Text = "Результат:";
             // 
-            // buttonHelp_VAA
+            // buttonHelp_IMS
             // 
-            this.buttonHelp_VAA.Location = new System.Drawing.Point(770, 329);
-            this.buttonHelp_VAA.Name = "buttonHelp_VAA";
-            this.buttonHelp_VAA.Size = new System.Drawing.Size(42, 33);
-            this.buttonHelp_VAA.TabIndex = 2;
-            this.buttonHelp_VAA.Text = "?";
-            this.buttonHelp_VAA.UseVisualStyleBackColor = true;
-            this.buttonHelp_VAA.Click += new System.EventHandler(this.buttonHelp_VAA_Click);
+            this.buttonHelp_IMS.Location = new System.Drawing.Point(770, 329);
+            this.buttonHelp_IMS.Name = "buttonHelp_IMS";
+            this.buttonHelp_IMS.Size = new System.Drawing.Size(42, 33);
+            this.buttonHelp_IMS.TabIndex = 2;
+            this.buttonHelp_IMS.Text = "?";
+            this.buttonHelp_IMS.UseVisualStyleBackColor = true;
+            this.buttonHelp_IMS.Click += new System.EventHandler(this.buttonHelp_IMS_Click);
             // 
-            // buttonDone_VAA
+            // buttonDone_IMS
             // 
-            this.buttonDone_VAA.Location = new System.Drawing.Point(818, 329);
-            this.buttonDone_VAA.Name = "buttonDone_VAA";
-            this.buttonDone_VAA.Size = new System.Drawing.Size(109, 33);
-            this.buttonDone_VAA.TabIndex = 3;
-            this.buttonDone_VAA.Text = "Выполнить ";
-            this.buttonDone_VAA.UseVisualStyleBackColor = true;
-            this.buttonDone_VAA.Click += new System.EventHandler(this.buttonDone_VAA_Click);
+            this.buttonDone_IMS.Location = new System.Drawing.Point(818, 329);
+            this.buttonDone_IMS.Name = "buttonDone_IMS";
+            this.buttonDone_IMS.Size = new System.Drawing.Size(109, 33);
+            this.buttonDone_IMS.TabIndex = 3;
+            this.buttonDone_IMS.Text = "Выполнить ";
+            this.buttonDone_IMS.UseVisualStyleBackColor = true;
+            this.buttonDone_IMS.Click += new System.EventHandler(this.buttonDone_IMS_Click);
             // 
-            // dataGridViewMatrix_VAA
+            // dataGridViewMatrix_IMS
             // 
-            this.dataGridViewMatrix_VAA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewMatrix_VAA.ColumnHeadersVisible = false;
-            this.dataGridViewMatrix_VAA.Location = new System.Drawing.Point(376, 22);
-            this.dataGridViewMatrix_VAA.Name = "dataGridViewMatrix_VAA";
-            this.dataGridViewMatrix_VAA.RowHeadersVisible = false;
-            this.dataGridViewMatrix_VAA.RowHeadersWidth = 51;
-            this.dataGridViewMatrix_VAA.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.dataGridViewMatrix_VAA.RowTemplate.Height = 24;
-            this.dataGridViewMatrix_VAA.Size = new System.Drawing.Size(254, 223);
-            this.dataGridViewMatrix_VAA.TabIndex = 1;
+            this.dataGridViewMatrix_IMS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewMatrix_IMS.ColumnHeadersVisible = false;
+            this.dataGridViewMatrix_IMS.Location = new System.Drawing.Point(376, 22);
+            this.dataGridViewMatrix_IMS.Name = "dataGridViewMatrix_IMS";
+            this.dataGridViewMatrix_IMS.RowHeadersVisible = false;
+            this.dataGridViewMatrix_IMS.RowHeadersWidth = 51;
+            this.dataGridViewMatrix_IMS.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.dataGridViewMatrix_IMS.RowTemplate.Height = 24;
+            this.dataGridViewMatrix_IMS.Size = new System.Drawing.Size(254, 223);
+            this.dataGridViewMatrix_IMS.TabIndex = 1;
             // 
-            // dataGridViewRes_VAA
+            // dataGridViewRes_IMS
             // 
-            this.dataGridViewRes_VAA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewRes_VAA.ColumnHeadersVisible = false;
-            this.dataGridViewRes_VAA.Location = new System.Drawing.Point(9, 44);
-            this.dataGridViewRes_VAA.Name = "dataGridViewRes_VAA";
-            this.dataGridViewRes_VAA.RowHeadersVisible = false;
-            this.dataGridViewRes_VAA.RowHeadersWidth = 51;
-            this.dataGridViewRes_VAA.RowTemplate.Height = 24;
-            this.dataGridViewRes_VAA.Size = new System.Drawing.Size(240, 234);
-            this.dataGridViewRes_VAA.TabIndex = 2;
-            this.dataGridViewRes_VAA.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewRes_VAA_CellContentClick);
+            this.dataGridViewRes_IMS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewRes_IMS.ColumnHeadersVisible = false;
+            this.dataGridViewRes_IMS.Location = new System.Drawing.Point(9, 44);
+            this.dataGridViewRes_IMS.Name = "dataGridViewRes_IMS";
+            this.dataGridViewRes_IMS.RowHeadersVisible = false;
+            this.dataGridViewRes_IMS.RowHeadersWidth = 51;
+            this.dataGridViewRes_IMS.RowTemplate.Height = 24;
+            this.dataGridViewRes_IMS.Size = new System.Drawing.Size(240, 234);
+            this.dataGridViewRes_IMS.TabIndex = 2;
+            this.dataGridViewRes_IMS.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewRes_IMS_CellContentClick);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(939, 374);
-            this.Controls.Add(this.buttonDone_VAA);
-            this.Controls.Add(this.buttonHelp_VAA);
-            this.Controls.Add(this.groupBoxRes_VAA);
-            this.Controls.Add(this.groupBoxTask_VAA);
+            this.Controls.Add(this.buttonDone_IMS);
+            this.Controls.Add(this.buttonHelp_IMS);
+            this.Controls.Add(this.groupBoxRes_IMS);
+            this.Controls.Add(this.groupBoxTask_IMS);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.Text = "Спринт 6 | Таск 3 | Вариант 28 |  Иванов М. С.";
             this.Load += new System.EventHandler(this.FormMain_Load);
-            this.groupBoxTask_VAA.ResumeLayout(false);
-            this.groupBoxTask_VAA.PerformLayout();
-            this.groupBoxRes_VAA.ResumeLayout(false);
-            this.groupBoxRes_VAA.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMatrix_VAA)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRes_VAA)).EndInit();
+            this.groupBoxTask_IMS.ResumeLayout(false);
+            this.groupBoxTask_IMS.PerformLayout();
+            this.groupBoxRes_IMS.ResumeLayout(false);
+            this.groupBoxRes_IMS.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMatrix_IMS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRes_IMS)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBoxTask_VAA;
+        private System.Windows.Forms.GroupBox groupBoxTask_IMS;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBoxRes_VAA;
-        private System.Windows.Forms.Label labelRes_VAA;
-        private System.Windows.Forms.Button buttonHelp_VAA;
-        private System.Windows.Forms.Button buttonDone_VAA;
-        private System.Windows.Forms.DataGridView dataGridViewMatrix_VAA;
-        private System.Windows.Forms.DataGridView dataGridViewRes_VAA;
+        private System.Windows.Forms.GroupBox groupBoxRes_IMS;
+        private System.Windows.Forms.Label labelRes_IMS;
+        private System.Windows.Forms.Button buttonHelp_IMS;
+        private System.Windows.Forms.Button buttonDone_IMS;
+        private System.Windows.Forms.DataGridView dataGridViewMatrix_IMS;
+        private System.Windows.Forms.DataGridView dataGridViewRes_IMS;
     }
 }

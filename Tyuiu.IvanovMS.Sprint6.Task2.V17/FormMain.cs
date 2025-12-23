@@ -12,8 +12,8 @@ namespace Tyuiu.IvanovMS.Sprint6.Task2.V17
         {
             try
             {
-                int startStep = Convert.ToInt32(textBoxInPutStartStep_SYP.Text);
-                int stopStep = Convert.ToInt32(textBoxInPutStopStep_SYP.Text);
+                int startStep = Convert.ToInt32(textBoxInPutStartStep_IMS.Text);
+                int stopStep = Convert.ToInt32(textBoxInPutStopStep_IMS.Text);
 
                 int len = ds.GetMassFunction(startStep, stopStep).Length;
 
@@ -25,7 +25,7 @@ namespace Tyuiu.IvanovMS.Sprint6.Task2.V17
 
                 for (int i = 0; i < len; i++)
                 {
-                    this.dataGridViewFunction_SYP.Rows.Add(Convert.ToString(startStep), Convert.ToString(valueArray[i]));
+                    this.dataGridViewFunction_IMS.Rows.Add(Convert.ToString(startStep), Convert.ToString(valueArray[i]));
                     
                     startStep++;
                 }
@@ -48,15 +48,15 @@ namespace Tyuiu.IvanovMS.Sprint6.Task2.V17
         }
         private void buttonDone_MouseEnter(object sender, EventArgs e)
         {
-            buttonDoResult_SYP.BackColor = Color.Red;
+            buttonDoResult_IMS.BackColor = Color.Red;
         }
         private void buttonDone_MouseLeave(object sender, EventArgs e)
         {
-            buttonDoResult_SYP.BackColor = Color.Green;
+            buttonDoResult_IMS.BackColor = Color.Green;
         }
         private void buttonDone_MouseDown(object sender, MouseEventArgs e)
         {
-            buttonDoResult_SYP.BackColor = Color.Blue;
+            buttonDoResult_IMS.BackColor = Color.Blue;
         }
     }
 }
